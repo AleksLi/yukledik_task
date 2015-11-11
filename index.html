@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yukledik form</title>
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+</head>
+<body>
+<div class="container">
+
+    <div class="custom-header">
+        <h1 class="custom-title">Custom form</h1>
+        <p class="lead custom-description">customization </p>
+    </div>
+
+    <div class="row ">
+
+        <div class="col-sm-8 form-main">
+
+            <!-- multistep form -->
+            <form id="custom-form">
+                <div class="row">
+                    <h1>Üye Ol</h1>
+
+                    <div class="left-column col-sm-6">
+                        <select name="Enduser" id="enduser-type">
+                            <option value="1" selected="">Son kullanıcı</option>
+                            <option value="2">Kamyoncu</option>
+                        </select>
+                        <input type="text" name="email" placeholder="Isim" />
+                        <input type="password" name="pass" placeholder="Mobile" />
+                        <select id="enduser-from_town"  name="Enduser[from_town]">
+                            <option value="" selected>Ilce</option>
+                        </select>
+                    </div>
+                    <div class="right-column col-sm-6">
+                        <select id="enduser-profession_type"  name="Enduser[profession_type]">
+                            <option value="1" selected>Bireysel</option>
+                            <option value="2">Kurumsal</option>
+                            <option value="3">Kooperatif</option>
+                        </select>
+                        <input type="text" name="email" placeholder="Soyadı" />
+                        <input type="password" name="pass" placeholder="Parola" />
+                        <select id="enduser-from_city"  name="Enduser[from_city]" >
+                            <option value="1" selected>Şehir</option>
+                            <option value="2">Adana</option>
+                            <option value="3">Adıyaman</option>
+                            <option value="4">Afyonkarahisar</option>
+                            <option value="5">Ağrı</option>
+                            <option value="69">Aksaray</option>
+                            <option value="6">Amasya</option>
+                            <option value="7">Ankara</option>
+                            <option value="8">Antalya</option>
+                            <option value="76">Ardahan</option>
+                            <option value="9">Artvin</option>
+                            <option value="10">Aydın</option>
+                            <option value="11">Balıkesir</option>
+                            <option value="75">Bartın</option>
+                            <option value="73">Batman</option>
+                            <option value="70">Bayburt</option>
+                            <option value="12">Bilecik</option>
+                            <option value="13">Bingöl</option>
+                            <option value="14">Bitlis</option>
+                            <option value="15">Bolu</option>
+                            <option value="16">Burdur</option>
+                            <option value="17">Bursa</option>
+                            <option value="18">Çanakkale</option>
+                            <option value="19">Çankırı</option>
+                            <option value="20">Çorum</option>
+                            <option value="21">Denizli</option>
+                            <option value="22">Diyarbakır</option>
+                            <option value="82">Düzce</option>
+                            <option value="23">Edirne</option>
+                            <option value="24">Elazığ</option>
+                            <option value="25">Erzincan</option>
+                            <option value="26">Erzurum</option>
+                            <option value="27">Eskişehir</option>
+                            <option value="28">Gaziantep</option>
+                            <option value="29">Giresun</option>
+                            <option value="30">Gümüşhane</option>
+                            <option value="31">Hakkari</option>
+                            <option value="32">Hatay</option>
+                            <option value="77">Iğdır</option>
+                            <option value="33">Isparta</option>
+                            <option value="35">İstanbul</option>
+                            <option value="36">İzmir</option>
+                            <option value="47">Kahramanmaraş</option>
+                            <option value="79">Karabük</option>
+                            <option value="71">Karaman</option>
+                            <option value="37">Kars</option>
+                            <option value="38">Kastamonu</option>
+                            <option value="39">Kayseri</option>
+                            <option value="80">Kilis</option>
+                            <option value="72">Kırıkkale</option>
+                            <option value="40">Kırklareli</option>
+                            <option value="41">Kırşehir</option>
+                            <option value="42">Kocaeli</option>
+                            <option value="43">Konya</option>
+                            <option value="44">Kütahya</option>
+                            <option value="83">Kuzey Kıbrıs Türk Cumhuriyeti</option>
+                            <option value="45">Malatya</option>
+                            <option value="46">Manisa</option>
+                            <option value="48">Mardin</option>
+                            <option value="34">Mersin</option>
+                            <option value="49">Muğla</option>
+                            <option value="50">Muş</option>
+                            <option value="51">Nevşehir</option>
+                            <option value="52">Niğde</option>
+                            <option value="53">Ordu</option>
+                            <option value="81">Osmaniye</option>
+                            <option value="54">Rize</option>
+                            <option value="55">Sakarya</option>
+                            <option value="56">Samsun</option>
+                            <option value="64">Şanlıurfa</option>
+                            <option value="57">Siirt</option>
+                            <option value="58">Sinop</option>
+                            <option value="74">Şırnak</option>
+                            <option value="59">Sivas</option>
+                            <option value="60">Tekirdağ</option>
+                            <option value="61">Tokat</option>
+                            <option value="62">Trabzon</option>
+                            <option value="63">Tunceli</option>
+                            <option value="65">Uşak</option>
+                            <option value="66">Van</option>
+                            <option value="78">Yalova</option>
+                            <option value="67">Yozgat</option>
+                            <option value="68">Zonguldak</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="button" name="next" class="next action-button" value="Gönder" />
+
+            </form>
+
+        </div><!-- /.main -->
+
+        <div class="col-sm-3 col-sm-offset-1 sidebar">
+            <div class="sidebar-module sidebar-module-inset ">
+                <h4 class="sidebar-title">About</h4>
+            </div>
+
+            <div class="list-group custom-group">
+                <a href="#" class="list-group-item active">Cras justo odio</a>
+                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item">Morbi leo risus</a>
+                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                <a href="#" class="list-group-item">Vestibulum at eros</a>
+            </div>
+
+        </div><!-- /.sidebar -->
+
+    </div><!-- /.row -->
+
+</div><!-- /.container -->
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../dist/js/bootstrap.min.js"></script>
+</body>
+</html>
