@@ -3,6 +3,11 @@
  */
 
 @font-face {
+    font-family: ArapeyRegular;
+    src: url('fonts/Arapey-Regular.ttf');
+}
+
+@font-face {
     font-family: 'FranchiseRegular';
     src: url('fonts/franchise-bold-webfont.eot');
     src: url('fonts/franchise-bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -19,19 +24,6 @@ body {
     /*font-family: Georgia, "Times New Roman", Times, serif;*/
     color: #555;
 }
-
-
-/*h1, .h1,*/
-/*h2, .h2,*/
-/*h3, .h3,*/
-/*h4, .h4,*/
-/*h5, .h5,*/
-/*h6, .h6 {*/
-    /*margin-top: 0;*/
-    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-    /*font-weight: normal;*/
-    /*color: #333;*/
-/*}*/
 
 
 /*
@@ -60,9 +52,22 @@ body {
 }
 .custom-description {
     font-size: 20px;
+    font-family: ArapeyRegular;
+    font-weight: bold;
     color: #999;
 }
 
+
+#custom-form select{
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 2px 2px 2px;
+    border: none;
+    background: transparent url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat 97% center;
+
+}
 
 /*
  * Main column and sidebar layout
@@ -84,8 +89,6 @@ body {
     text-align: center;
     border-radius: 30px;
 }
-
-
 
 /*
  * Footer
